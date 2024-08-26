@@ -1,3 +1,7 @@
-# Epigenetic Compensation Promotes Liver Regeneration
-Abstract
+# [Epigenetic Compensation Promotes Liver Regeneration](https://www.sciencedirect.com/science/article/pii/S1534580719304472)
+### Abstract
 Two major functions of the epigenome are to regulate gene expression and to suppress transposons. It is unclear how these functions are balanced during physiological challenges requiring tissue regeneration, where exquisite coordination of gene expression is essential. Transcriptomic analysis of seven time points following partial hepatectomy identified the epigenetic regulator UHRF1, which is essential for DNA methylation, as dynamically expressed during liver regeneration in mice. UHRF1 deletion in hepatocytes (Uhrf1HepKO) caused genome-wide DNA hypomethylation but, surprisingly, had no measurable effect on gene or transposon expression or liver homeostasis. Partial hepatectomy of Uhrf1HepKO livers resulted in early and sustained activation of proregenerative genes and enhanced liver regeneration. This was attributed to redistribution of H3K27me3 from promoters to transposons, effectively silencing them and, consequently, alleviating repression of liver regeneration genes, priming them for expression in Uhrf1HepKO livers. Thus, epigenetic compensation safeguards the genome against transposon activation, indirectly affecting gene regulation.
+
+### Data Analysis
+
+Including time-course RNA-seq, performed DGEs analysis, differential TEs analysis, clustering on expression pattern of time-course, ATAC-seq, H3K9me3 and time-course H3K27me3. Pipeline and visualization scripts are available in fold scripts. 
